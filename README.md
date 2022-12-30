@@ -1,2 +1,2 @@
 # webpage
-Template of a webpage
+Template for a webpage
