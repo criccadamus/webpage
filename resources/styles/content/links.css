@@ -3,8 +3,13 @@
     src: url('../../fonts/name.otf') format('opentype');     
 }
 .buttons-grid{
+    position:absolute;
     text-align: center;
-    margin: 0% 50% 2% 40%;
+    margin: auto;
+    top: 8em;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .links-title {
     margin-top: 0em;

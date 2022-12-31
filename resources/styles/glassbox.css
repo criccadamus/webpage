@@ -7,4 +7,5 @@
     border: 1px solid rgba(255, 255, 255, 0.14);
     padding: 3em;
     border-radius: 30px;
+    overflow: auto;
 }
