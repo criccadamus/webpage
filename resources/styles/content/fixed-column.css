@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'twitter';
+    src: url('../../fonts/twitter.woff')
+    format('woff');
+}
+
+.fixed-column {
+    text-decoration: none;
+    background: #eeee;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 1em;
+}
+
+.twitter-embed {
+    font-family: 'twitter', sans-serif;
+    font-size: 1.7em;
+    text-decoration: none;
+    text-align: center;
+}

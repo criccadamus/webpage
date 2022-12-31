@@ -1,0 +1,13 @@
+@font-face {    
+    font-family: 'name';    
+    src: url('../../fonts/name.otf') format('opentype');     
+}
+
+.name-wrapper {
+    position: relative;
+    margin-top: 0em;
+    font-family: 'name', sans-serif;
+    font-size: 4.5em;
+    margin-right: 9%;
+    margin-left:9%;
+}

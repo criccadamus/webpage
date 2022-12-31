@@ -1,0 +1,21 @@
+.streams {
+    position: relative;
+    margin-right: 9%;
+    margin-left:9%;
+}
+
+.links {
+    position: relative;
+    margin-right: 9%;
+    margin-left:9%;
+}
+
+.embed {
+    float: right;
+    margin-right: 10%;
+}
+
+.button-wrapper {
+    float: left;
+    margin-left: 10%;
+}
