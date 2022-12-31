@@ -8,15 +8,13 @@
     position: relative;
     margin-right: 9%;
     margin-left:9%;
-    height: 30em;
+    height: 55em;
 }
 
-.embed {
-    float: right;
-    margin-right: 10%;
+.embed{
+    margin-right: 12%;
 }
-
 .button-wrapper {
-    float: left;
-    margin-left: 10%;
+    margin-top: 2em;
+    margin-left: 25%;
 }
