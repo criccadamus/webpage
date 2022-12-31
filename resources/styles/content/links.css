@@ -1,0 +1,13 @@
+@font-face {    
+    font-family: 'name';    
+    src: url('../../fonts/name.otf') format('opentype');     
+}
+.buttons-grid{
+    text-align: center;
+    margin: 0% 50% 2% 40%;
+}
+.links-title {
+    margin-top: 0em;
+    font-family: 'name', sans-serif;
+    font-size: 2.5em;
+}
