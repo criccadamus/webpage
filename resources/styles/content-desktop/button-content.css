@@ -11,6 +11,12 @@
     font-size: 3em;
 }
 
+.reddit:hover {
+    background-color: #ff4500;
+    color: white;
+    transition: 0.3s;
+}
+
 @font-face {    
     font-family: 'anilist';    
     src: url('../../fonts/anilist.ttf') format('truetype');     
@@ -19,6 +25,13 @@
 .anilist {
     font-family: 'anilist';
     font-size: 3em;
+}
+
+.anilist:hover {
+    background: rgb(36,37,55);
+    background: linear-gradient(90deg, rgba(36,37,55,1) 0%, rgba(61,62,93,1) 35%, rgba(61,62,93,1) 100%); 
+    color: white;
+    transition: 0.3s;
 }
 
 @font-face {    
@@ -31,6 +44,13 @@
     font-size: 3em;
 }
 
+.github:hover {
+    background: rgb(22,27,34);
+    background: linear-gradient(90deg, rgba(22,27,34,1) 0%, rgba(53,58,68,1) 57%, rgba(57,63,71,1) 100%);
+    color:white;
+    transition: 0.3s;
+}
+
 @font-face {    
     font-family: 'mastodon';    
     src: url('../../fonts/mastodon.otf') format('opentype');     
@@ -39,6 +59,13 @@
 .mastodon {
     font-family: 'mastodon';
     font-size: 3em;
+}
+
+.mastodon:hover {
+    background: rgb(99,100,255);
+    background: linear-gradient(90deg, rgba(99,100,255,1) 0%, rgba(86,58,204,1) 57%); 
+    color: white;
+    transition: 0.3s;
 }
 
 @font-face {    
@@ -51,6 +78,13 @@
     font-size: 3em;
 }
 
+.blog:hover {
+    background-color: rgb(34, 32, 32);
+    color: #eee;
+    transition: 0.3s;
+}
+
+
 @font-face {    
     font-family: 'mail';    
     src: url('../../fonts/mail.ttf ') format('truetype');     
@@ -59,4 +93,9 @@
 .mail {
     font-family: 'mail';
     font-size: 3em;
+}
+
+.mail:hover {
+    filter: invert(1);
+    transition: 0.3s;
 }
