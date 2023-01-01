@@ -40,7 +40,14 @@
     position: relative;
     top: auto;
     left: auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 2.7em;
   }
 
 .buttons-grid{
@@ -56,15 +63,20 @@
     src: url('../../fonts/twitter.woff') format('woff');     
 }
 
-.embed {
+.twitter-embed {
     font-family: 'twitter';
     font-size: 2em;
+    text-align: left;
+}
+
+.embed {
+    text-align: center;
     text-decoration: none;
     background: #eeee;
     color: rgb(0, 0, 0);
     border-radius: 30px;
     padding:10px;
     overflow: auto;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
