@@ -1,0 +1,64 @@
+.button-icon {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+@font-face {    
+    font-family: 'reddit';    
+    src: url('../../fonts/reddit.ttf') format('truetype');     
+}
+
+.reddit {
+    font-family: 'reddit', sans-serif;
+    font-size: 0.9em;
+}
+
+@font-face {    
+    font-family: 'anilist';    
+    src: url('../../fonts/anilist.ttf') format('truetype');     
+}
+
+.anilist {
+    font-family: 'anilist';
+    font-size: 0.9em;
+}
+
+@font-face {    
+    font-family: 'github';    
+    src: url('../../fonts/github.otf') format('opentype');     
+}
+
+.github {
+    font-family: 'github';
+    font-size: 0.9em;
+}
+
+@font-face {    
+    font-family: 'mastodon';    
+    src: url('../../fonts/mastodon.otf') format('opentype');     
+}
+
+.mastodon {
+    font-family: 'mastodon';
+    font-size: 0.9em;
+}
+
+@font-face {    
+    font-family: 'blog';    
+    src: url('../../fonts/blog.ttf') format('truetype');     
+}
+
+.blog {
+    font-family: 'blog';
+    font-size: 0.9em;
+}
+
+@font-face {    
+    font-family: 'mail';    
+    src: url('../../fonts/mail.ttf ') format('truetype');     
+}
+
+.mail {
+    font-family: 'mail';
+    font-size: 0.9em;
+}

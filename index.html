@@ -15,24 +15,29 @@
     <link rel="stylesheet" href="resources/styles/glassbox.css">
     <link rel="stylesheet" href="resources/styles/content-placement.css">
     <!-- ~~~~ -->
-    <link rel="stylesheet" href="resources/styles/content/header.css">
-    <link rel="stylesheet" href="resources/styles/content/streams.css">
-    <link rel="stylesheet" href="resources/styles/content/button.css">
-    <link rel="stylesheet" href="resources/styles/content/fixed-column.css">
-    <link rel="stylesheet" href="resources/styles/content/links.css">
+    <link rel="stylesheet" href="resources/styles/content-desktop/header.css">
+    <link rel="stylesheet" href="resources/styles/content-desktop/streams.css">
+    <link rel="stylesheet" href="resources/styles/content-desktop/button.css">
+    <link rel="stylesheet" href="resources/styles/content-desktop/button-content.css">
+    <link rel="stylesheet" href="resources/styles/content-desktop/fixed-column.css">
+    <link rel="stylesheet" href="resources/styles/content-desktop/links.css">
     <!-- ~~~~ -->
-    <link rel="stylesheet" media="(max-width: 746px)" href="resources/styles/content-placement-mobile.css"/>
+    <link rel="stylesheet" media="(max-width: 746px)" href="resources/styles/content-mobile/header-mobile.css"/>
+    <link rel="stylesheet" media="(max-width: 746px)" href="resources/styles/content-mobile/links-mobile.css"/>
+    <link rel="stylesheet" media="(max-width: 746px)" href="resources/styles/content-mobile/button-content-mobile.css"/>
+    <link rel="stylesheet" media="(max-width: 746px)" href="resources/styles/content-mobile/streams-mobile.css"/>
     <!-- ~~~~ -->
     <title>Criccahub</title>
 </head>
 <header>
     <div class="name-wrapper">
             <span>Criccahub</span>
-    </div><br>
+    </div>
+<br>
 </header>
 <body>
+    <span class="streams-title">Latest media</span><br><br><br>
     <div class="box streams">
-        <span class="streams-title">Latest media</span><br><br><br>
         <div class="streams-wrapper">
             <iframe
             height="320" width="480"
@@ -41,7 +46,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen="true" 
             scrolling="no"
-            ></iframe>
+            ></iframe>&nbsp;&nbsp;&nbsp;
             <iframe
             width="480" height="320"
             src="https://www.youtube-nocookie.com/embed/O4jALVwmpGA"
@@ -51,23 +56,22 @@
             allowfullscreen></iframe>
         </div>
     </div>
-<br>
+<br><br><br>
+    <span class="links-title">Links</span><br><br><br>
     <div class="box links">
-        <div class="button-wrapper">
-            <span class="links-title">Links</span><br><br><br>
         <table class="buttons-grid">
             <tr rel="row-one">
-                <td rel="reddit">            
+                <td rel="reddit-cell">            
                     <a href="https://www.reddit.com/user/criccadamus" target="_blank">
                     <div class="button reddit">
-                        <span><img class="reddit-icon" src="resources/icons/reddit.png" width="100" height="100" class="twitter-icon"><!-- Thanks FlatIcons! --></span>
+                        <span><img class="reddit-icon" src="resources/icons/reddit.png" width="50" height="50" class="button-icon"><!-- Thanks FlatIcons! --></span>&nbsp;reddit profile
                     </div>
                     </a>
                 </td>
                 <td rel="anilist">
                     <a href="https://anilist.co/user/criccadamus/" target="_blank">
                     <div class="button anilist">
-                        <span><img src="resources/icons/anilist.svg" width="100" height="100" class="mastodon-icon"><!-- Thanks FlatIcons! --></span>
+                        <span><img src="resources/icons/anilist.svg" width="50" height="50" class="button-icon"><!-- Thanks FlatIcons! --></span>&nbsp;Anilist
                     </div>
                     </a>
                 </td>
@@ -76,14 +80,14 @@
                 <td rel="github">
             <a href="https://github.com/criccadamus" target="_blank">
             <div class="button github">
-            <span><img class="github-icon" src="resources/icons/github.png" width="100" height="100" class="twitter-icon"><!-- Thanks FlatIcons! --></span>
+            <span><img class="github-icon" src="resources/icons/github.png" width="50" height="50" class="button-icon"><!-- Thanks FlatIcons! --></span>&nbsp;Github
             </div>
             </a>
                 </td>
                 <td rel="mastodon">
             <a href="https://mas.to/@criccadamus" target="_blank">
             <div class="button mastodon">
-            <span><img src="resources/icons/mastodon.png" width="100" height="100" class="mastodon-icon"><!-- Thanks FlatIcons! --></span>
+            <span><img src="resources/icons/mastodon.png" width="50" height="50" class="button-icon"><!-- Thanks FlatIcons! --></span>&nbsp;mastodon
             </div>
             </a>
                 </td>
@@ -92,21 +96,37 @@
                 <td rel="blog">
                     <a href="https://blog.criccadam.us" target="_blank">
                     <div class="button blog">
-                    <span><img src="resources/icons/blog.png" width="100" height="100" class="mastodon-icon"><!-- Thanks FlatIcons! --></span>
+                    <span><img src="resources/icons/blog.png" width="50" height="50" class="button-icon"><!-- Thanks FlatIcons! --></span>&nbsp;Blog
                     </div>
                     </a>
                 </td>
                 <td rel="mastodon">
                     <a href="https://mailhide.io/en/e/PAQ3Cq6k?ltcl" target="_blank">
                     <div class="button mail">
-                    <span><img src="resources/icons/mail.png" width="100" height="100" class="mastodon-icon"><!-- Thanks FlatIcons! --></span>
+                    <span><img src="resources/icons/mail.png" width="50" height="50" class="button-icon"><!-- Thanks FlatIcons! --></span>&nbsp;Mail
                     </div>
                     </a>
                 </td>
-
             </tr>
-        </table>   
+        </table>
+<br>
+
+        <div class="embed">
+            <a href="https://twitter.com/criccadamus" target="_blank">
+                <div class="twitter-embed">
+                    <span><img class="twitter-icon" src="resources/icons/gorjeo.png" width="50" height="50" style="vertical-align: middle;"><!-- Thanks FlatIcons! --></span>&nbsp;Twitter<br>
+                </div>
+                <a class="twitter-timeline" data-width="320" data-height="320" data-theme="dark" href="https://twitter.com/criccadamus?ref_src=twsrc%5Etfw">Loading...</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
+            </a>
         </div>
     </div>
+<!-- ~~~~ -->
+<script src="resources/scripts/hide-streams.js"></script>
+<script src="resources/scripts/hide-links.js"></script>
+<script src="resources/scripts/add-background-links.js"></script>
+<script src="resources/scripts/add-background-streams.js"></script>
+<script src="resources/scripts/return-links.js"></script>
+<!-- ~~~~ -->
 </body>
 </html>

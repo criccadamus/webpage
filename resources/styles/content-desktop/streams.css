@@ -1,0 +1,40 @@
+@font-face {    
+    font-family: 'name';    
+    src: url('../../fonts/name.otf') format('opentype');     
+}
+
+.streams {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.streams-wrapper{
+    text-align: center;
+}
+
+.streams-title {
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size:72px;
+    margin-top: 0em;
+    font-family: 'name', sans-serif;
+    font-size: 2.5em;
+    margin-right: 9%;
+    margin-left:9%;
+}
+
+.streams-title.is-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 2.5em;
+  }
