@@ -15,8 +15,13 @@ body {
     background-position: 0 0, 0 0, 23px 40px, 23px 40px, 0 0, 23px 40px;
 }
 
-iframe {
-    border-radius: 30px;
+#night-mode-toggle {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background-color: white;
+  border-radius: 100%;
+  padding: 3em;
 }
 
 /* ===== Scrollbar CSS ===== */

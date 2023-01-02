@@ -8,6 +8,11 @@
     margin-left: 20%;
 }
 
+iframe {
+    border-radius: 30px;
+}
+
+
 .streams-wrapper{
     text-align: center;
 }

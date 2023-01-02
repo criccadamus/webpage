@@ -17,6 +17,13 @@
     margin-left:9%;
 }
 
+.links-subtitle {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: 'name', sans-serif;
+    font-size: 2em;
+}
+
 .buttons-grid{
     text-align: center;
     margin: auto;
@@ -30,6 +37,12 @@
     src: url('../../fonts/twitter.woff') format('woff');     
 }
 
+.twitter-embed {
+    font-family: 'twitter';
+    font-size: 0.9em;
+    text-align: left;
+}
+
 .embed {
     font-family: 'twitter';
     font-size: 1em;
@@ -41,4 +54,9 @@
     overflow: auto;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.embed:active{
+    background-color: black;
+    color: white;
 }
