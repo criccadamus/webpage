@@ -1,0 +1,12 @@
+@font-face {    
+    font-family: 'name';    
+    src: url('../../fonts/name.otf') format('opentype');     
+}
+
+footer {
+    font-family: 'name', sans-serif;
+    font-size:20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
