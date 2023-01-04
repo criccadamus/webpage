@@ -10,3 +10,10 @@ footer {
     margin-left: 20%;
     text-align: center;
 }
+.gototop {
+    transition: 0.3s;
+}
+.gototop:hover{
+    color: white;
+    font-size:22px;
+}

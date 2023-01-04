@@ -16,7 +16,6 @@
 .reddit:active {
     background-color: #ff4500;
     color: white;
-    transition: 0.3s;
 }
 
 
@@ -34,7 +33,6 @@
     background: rgb(36,37,55);
     background: linear-gradient(90deg, rgba(36,37,55,1) 0%, rgba(61,62,93,1) 35%, rgba(61,62,93,1) 100%); 
     color: white;
-    transition: 0.3s;
 }
 
 @font-face {    
@@ -51,7 +49,6 @@
     background: rgb(22,27,34);
     background: linear-gradient(90deg, rgba(22,27,34,1) 0%, rgba(53,58,68,1) 57%, rgba(57,63,71,1) 100%);
     color:white;
-    transition: 0.3s;
 }
 
 
@@ -69,7 +66,6 @@
     background: rgb(99,100,255);
     background: linear-gradient(90deg, rgba(99,100,255,1) 0%, rgba(86,58,204,1) 57%); 
     color: white;
-    transition: 0.3s;
 }
 
 @font-face {    
@@ -85,7 +81,6 @@
 .blog:active {
     background-color: rgb(34, 32, 32);
     color: #eee;
-    transition: 0.3s;
 }
 
 @font-face {    
@@ -100,7 +95,6 @@
 
 .mail:active {
     filter: invert(1);
-    transition: 0.3s;
 }
 
 
